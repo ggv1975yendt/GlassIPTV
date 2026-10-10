@@ -20,8 +20,8 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.11 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.11 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.14 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.14 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
@@ -264,8 +264,8 @@ const translations = {
     "en": "Illustration · try the tabs and keyboard arrows"
   },
   "newLabel": {
-    "ru": "НОВОЕ В 1.3.11",
-    "en": "NEW IN 1.3.11"
+    "ru": "ИСТОЧНИКИ И EPG",
+    "en": "SOURCES & EPG"
   },
   "settingsTitle": {
     "ru": "Каждому источнику — свои настройки",
@@ -452,8 +452,8 @@ const translations = {
     "en": "Glass IPTV — your evening, your rules"
   },
   "description": {
-    "ru": "Glass IPTV для Android TV и Android. Два окна PiP, эфир, архив, запись и напоминания. Скачайте APK и подключите свои каналы.",
-    "en": "Glass IPTV for Android TV and Android. PiP, live TV, catch-up, recording and reminders. Download the APK and add your channels."
+    "ru": "Glass IPTV для Android TV и Android. Личный плейлист с группами, PiP, архив, запись и напоминания. Скачайте APK и подключите свои каналы.",
+    "en": "Glass IPTV for Android TV and Android. Your own channel groups, PiP, catch-up, recording and reminders. Download the APK and add your channels."
   },
   "sceneNature": {
     "ru": "Там, где<br>тише.",
@@ -510,5 +510,77 @@ const translations = {
   "twoLiveButton": {
     "ru": "Два эфира",
     "en": "Two live channels"
+  },
+  "navPersonal": {
+    "ru": "Мой плейлист",
+    "en": "My playlist"
+  },
+  "personalNew": {
+    "ru": "НОВОЕ В 1.3.14",
+    "en": "NEW IN 1.3.14"
+  },
+  "personalTitle": {
+    "ru": "Разные источники.<br><em>Ваш единый плейлист.</em>",
+    "en": "Different sources.<br><em>One playlist, yours.</em>"
+  },
+  "personalCopy": {
+    "ru": "Соберите любимые каналы в свои группы. Кино из одного источника, спорт из другого — переключайтесь между ними, оставаясь в «Моём плейлисте».",
+    "en": "Bring your favourite channels into your own groups. Movies from one source, sport from another — switch between them without leaving My playlist."
+  },
+  "personalBenefit1": {
+    "ru": "Ваши группы и ваш порядок каналов",
+    "en": "Your groups, your channel order"
+  },
+  "personalBenefit2": {
+    "ru": "Один канал — в нескольких группах",
+    "en": "Keep one channel in several groups"
+  },
+  "personalBenefit3": {
+    "ru": "EPG, архив и запись исходного канала сохраняются",
+    "en": "Keep the original channel’s guide, catch-up and recording"
+  },
+  "personalDemoTitle": {
+    "ru": "Мой плейлист",
+    "en": "My playlist"
+  },
+  "personalDemoGroup": {
+    "ru": "Группа · На вечер",
+    "en": "Group · Tonight"
+  },
+  "personalSourceA": {
+    "ru": "Источник «Дом»",
+    "en": "Home source"
+  },
+  "personalSourceB": {
+    "ru": "Источник «Спорт»",
+    "en": "Sport source"
+  },
+  "personalDemoHint": {
+    "ru": "Иллюстрация подборки из разных источников",
+    "en": "Illustration of a playlist combining sources"
+  },
+  "personalAddTitle": {
+    "ru": "Добавляйте, пока выбираете",
+    "en": "Add as you browse"
+  },
+  "personalAddCopy": {
+    "ru": "Удерживайте OK на канале: добавьте его в избранное или группу «Моего плейлиста». Для текущего канала добавление доступно и в панели инструментов.",
+    "en": "Hold OK on a channel to add it to favourites or a group in My playlist. You can also add the current channel from the toolbar."
+  },
+  "personalEditTitle": {
+    "ru": "Группы легко изменить",
+    "en": "Make your groups your own"
+  },
+  "personalEditCopy": {
+    "ru": "Настройки → Мой плейлист: создавайте, переименовывайте и удаляйте группы. В меню канала меняйте его порядок и перемещайте между группами. Удаление из подборки сохраняет исходный канал.",
+    "en": "Settings → My playlist: create, rename and delete groups. Use the channel menu to reorder channels or move them between groups. Removing a channel from your selection keeps the original channel."
+  },
+  "keyHoldOk": {
+    "ru": "В списке каналов — избранное или группа",
+    "en": "In the channel list: favourites or a group"
+  },
+  "holdOkLabel": {
+    "ru": "Удержать OK",
+    "en": "Hold OK"
   }
 };

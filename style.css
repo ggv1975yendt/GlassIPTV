@@ -6,3 +6,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 @media(max-width:650px){.scene-copy{top:19%;max-width:49%}.scene-copy strong{font-size:clamp(19px,5.6vw,31px);letter-spacing:-.6px}.scene-copy small{font-size:6px;letter-spacing:.5px}.pip-window{top:29%}}
+
+.personal-demo h3{font-size:24px;font-weight:400;margin:0 0 8px}.personal-group{color:var(--accent);font-size:12px;margin:0 0 20px}.personal-channel{display:flex;align-items:center;gap:18px;border:1px solid var(--line);border-radius:12px;padding:16px;margin:8px 0;background:#0e171544}.personal-channel>div{flex:1}.personal-channel strong{display:block;font-size:14px;letter-spacing:2px;font-weight:400}.personal-channel div span{display:block;color:var(--muted);font-size:11px}.personal-number{color:var(--accent);font-size:12px}.personal-how{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin-top:30px}.personal-how article{border-top:1px solid var(--line);padding-top:12px}.personal-how h3{font-size:21px;font-weight:400}.personal-how p{color:var(--muted);font-size:14px}.keys .key:last-child:nth-child(odd){grid-column:1/-1}
+@media(max-width:650px){.personal-how{grid-template-columns:1fr;gap:12px}.personal-channel{padding:12px}.personal-how h3{font-size:19px}}
