@@ -20,8 +20,8 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.14 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.14 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.26 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.26 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
@@ -40,8 +40,8 @@ const translations = {
     "en": "Explore the modes ↗"
   },
   "heroFine": {
-    "ru": "Android 8.0+ · 8,7 МБ · Подключите свой IPTV-источник",
-    "en": "Android 8.0+ · 8.7 MB · Bring your own IPTV source"
+    "ru": "Android 8.0+ · 8,8 МБ · Ваш IPTV-источник",
+    "en": "Android 8.0+ · 8.8 MB · Your IPTV source"
   },
   "screenEvening": {
     "ru": "ВРЕМЯ ДЛЯ СЕБЯ",
@@ -100,12 +100,12 @@ const translations = {
     "en": "Two TV channels at once"
   },
   "pip2": {
-    "ru": "Эфир и сохранённое видео рядом",
-    "en": "Live TV beside a saved video"
+    "ru": "Эфир, архив и ваши видео — в основном окне или PiP",
+    "en": "Live TV, catch-up and your videos — in the main window or PiP"
   },
   "pip3": {
-    "ru": "Размер и положение малого окна — на ваш выбор",
-    "en": "Choose the small window’s size and position"
+    "ru": "Положение стрелками, ширина от 10 до 75% экрана",
+    "en": "Move with the arrow keys. Set the width from 10 to 75% of the screen"
   },
   "tryPip": {
     "ru": "Попробовать PiP в иллюстрации ↑",
@@ -120,8 +120,8 @@ const translations = {
     "en": "A big screen. More choice."
   },
   "pipLimit": {
-    "ru": "Для двух потоков ваш источник должен разрешать одновременные подключения.",
-    "en": "Your source must allow simultaneous connections to play two streams."
+    "ru": "Два потока требуют поддержки источника и устройства. При доступных вариантах плеер снижает качество для устойчивого просмотра. Два UHD поддерживаются не каждой приставкой.",
+    "en": "Two streams need support from your source and device. When lighter variants are available, the player can reduce quality to keep playback going. Not every TV box can handle two UHD streams."
   },
   "featuresLabel": {
     "ru": "02 / СМОТРИТЕ ПО-СВОЕМУ",
@@ -304,16 +304,16 @@ const translations = {
     "en": "A familiar remote.<br>Natural controls."
   },
   "controlsCopy": {
-    "ru": "Телегид показывает три часа, а стрелки выбирают соседние передачи. На телефоне доступен экранный пульт в горизонтальном режиме.",
-    "en": "The guide shows three hours; arrow keys select neighbouring programmes. On a phone, use the on-screen remote in landscape."
+    "ru": "В телегиде — три часа программы и переход между передачами. Короткое OK открывает просмотр, долгое — действия. Защищённый контент сначала запросит PIN. На телефоне — экранный пульт в горизонтальном режиме.",
+    "en": "A three-hour guide with navigation from programme to programme. Press OK to watch, or hold it for actions. Protected content asks for a PIN first. On phones, use the on-screen remote in landscape."
   },
   "keyGuide": {
     "ru": "В телегиде — выбрать передачу",
     "en": "In the guide: select a programme"
   },
   "keyOk": {
-    "ru": "В инфопанели — выбрать позицию",
-    "en": "In the info panel: choose a position"
+    "ru": "На канале или передаче — сразу открыть просмотр",
+    "en": "On a channel or programme — start watching immediately"
   },
   "keyUp": {
     "ru": "Удержать — записи и планы",
@@ -380,12 +380,12 @@ const translations = {
     "en": "Android TV, Google TV and phones running Android 8.0+. The phone interface uses landscape orientation and an on-screen remote. Format support depends on the device and decoder."
   },
   "q2": {
-    "ru": "Что нужно для PiP и паузы эфира?",
-    "en": "What do PiP and live pause require?"
+    "ru": "Что нужно для PiP, UHD и паузы эфира?",
+    "en": "What do PiP, UHD and live pause need?"
   },
   "a2": {
-    "ru": "Для PiP с двумя телеканалами источник должен допускать одновременные подключения, а устройство — справляться с двумя видео. Можно сочетать эфир с локальным видео. Пауза эфира и просмотр прошедших передач доступны на каналах с архивом провайдера.",
-    "en": "For PiP with two TV channels, your source must allow simultaneous connections and your device must handle two videos. You can also pair live TV with a local video. Live pause and catch-up require provider archive support."
+    "ru": "Для двух телеканалов источник должен допускать одновременные подключения, а устройство — декодировать два потока. Можно сочетать эфир, архив и локальное видео. При наличии более лёгких вариантов плеер умеет снижать качество; единственный UHD-поток не превращается в HD. Два UHD на каждой приставке не гарантируются. Пауза эфира доступна на каналах с архивом провайдера.",
+    "en": "For two TV channels, your source must allow simultaneous connections and your device must decode two streams. Combine live TV, catch-up and local video. The player can switch to lighter variants when available; it cannot turn a single UHD stream into HD. Two UHD streams are not guaranteed on every TV box. Live pause requires provider catch-up support."
   },
   "q3": {
     "ru": "Как работает запись по расписанию?",
@@ -412,8 +412,8 @@ const translations = {
     "en": "Your channels. Your recordings. Your way to watch."
   },
   "downloadFine": {
-    "ru": "APK · 8,7 МБ · Android 8.0+",
-    "en": "APK · 8.7 MB · Android 8.0+"
+    "ru": "APK · 8,8 МБ · Android 8.0+",
+    "en": "APK · 8.8 MB · Android 8.0+"
   },
   "downloadSource": {
     "ru": "Каналы подключаются отдельно",
@@ -452,8 +452,8 @@ const translations = {
     "en": "Glass IPTV — your evening, your rules"
   },
   "description": {
-    "ru": "Glass IPTV для Android TV и Android. Личный плейлист с группами, PiP, архив, запись и напоминания. Скачайте APK и подключите свои каналы.",
-    "en": "Glass IPTV for Android TV and Android. Your own channel groups, PiP, catch-up, recording and reminders. Download the APK and add your channels."
+    "ru": "Glass IPTV для Android TV: ваши плейлисты, два окна PiP, архив, запись по расписанию и PIN-защита. Скачайте APK и смотрите по-своему.",
+    "en": "Glass IPTV for Android TV: your playlists, two-window PiP, catch-up, scheduled recordings and PIN protection. Download the APK and watch your way."
   },
   "sceneNature": {
     "ru": "Там, где<br>тише.",
@@ -516,8 +516,8 @@ const translations = {
     "en": "My playlist"
   },
   "personalNew": {
-    "ru": "НОВОЕ В 1.3.14",
-    "en": "NEW IN 1.3.14"
+    "ru": "МОЙ ПЛЕЙЛИСТ",
+    "en": "MY PLAYLIST"
   },
   "personalTitle": {
     "ru": "Разные источники.<br><em>Ваш единый плейлист.</em>",
@@ -576,11 +576,227 @@ const translations = {
     "en": "Settings → My playlist: create, rename and delete groups. Use the channel menu to reorder channels or move them between groups. Removing a channel from your selection keeps the original channel."
   },
   "keyHoldOk": {
-    "ru": "В списке каналов — избранное или группа",
-    "en": "In the channel list: favourites or a group"
+    "ru": "Выбрать основное окно или PiP. На канале — также избранное, группы и PIN-защита",
+    "en": "Choose the main window or PiP. On a channel, also manage favourites, groups and PIN protection"
   },
   "holdOkLabel": {
     "ru": "Удержать OK",
     "en": "Hold OK"
+  },
+  "pipSetup": {
+    "ru": "Настройки → Интерфейс → PiP. Перемещайте окно стрелками с шагом 5% экрана. Ширина по умолчанию — 25%; меняйте её влево/вправо. OK сохраняет, Back отменяет.",
+    "en": "Settings → Interface → PiP. Move the window in 5% screen steps with the arrow keys. The default width is 25%; adjust it with left/right. OK saves; Back cancels."
+  },
+  "catalogNav": {
+    "ru": "Все функции",
+    "en": "All features"
+  },
+  "familyLabel": {
+    "ru": "ДЛЯ ВСЕЙ СЕМЬИ",
+    "en": "FOR THE WHOLE FAMILY"
+  },
+  "familyTitle": {
+    "ru": "Ваши каналы.<br><em>Ваши границы.</em>",
+    "en": "Your channels.<br><em>Your boundaries.</em>"
+  },
+  "familyCopy": {
+    "ru": "Вы сами выбираете, какие каналы и группы защитить PIN-кодом. Удерживайте OK в списке каналов или категорий — защита всегда под рукой.",
+    "en": "You choose which channels and groups need a PIN. Hold OK in the channel or category list to manage protection right where you browse."
+  },
+  "familyOne": {
+    "ru": "Разрешите один канал — или все защищённые каналы на текущий сеанс.",
+    "en": "Allow just one channel — or all protected channels for the current session."
+  },
+  "familyTwo": {
+    "ru": "Сменить PIN в Settings можно только после ввода действующего кода.",
+    "en": "Changing the PIN in Settings requires the current code."
+  },
+  "familyHint": {
+    "ru": "Ручная защита внутри плеера. Автоматической классификации контента нет.",
+    "en": "Manual protection inside the player. Content is not classified automatically."
+  },
+  "familyPreview": {
+    "ru": "После верного PIN",
+    "en": "After the correct PIN"
+  },
+  "familyQuestion": {
+    "ru": "Что разрешить смотреть?",
+    "en": "What would you like to unlock?"
+  },
+  "familyChannel": {
+    "ru": "Только этот канал",
+    "en": "Only this channel"
+  },
+  "familyAll": {
+    "ru": "Все защищённые каналы",
+    "en": "All protected channels"
+  },
+  "familyCaption": {
+    "ru": "Иллюстрация выбора доступа · при уходе приложения в фон защита возвращается",
+    "en": "Access selection illustration · protection returns when the app goes into the background"
+  },
+  "catalogLabel": {
+    "ru": "ВСЁ В ОДНОМ ПЛЕЕРЕ",
+    "en": "ALL IN ONE PLAYER"
+  },
+  "catalogTitle": {
+    "ru": "От первого канала<br><em>до ваших привычек.</em>",
+    "en": "From your first channel<br><em>to your everyday favourites.</em>"
+  },
+  "catalogCopy": {
+    "ru": "Полный обзор возможностей. Откройте раздел, чтобы узнать подробности.",
+    "en": "A complete feature overview. Open a section to explore the details."
+  },
+  "catalog_sources": {
+    "ru": "Источники и личная коллекция",
+    "en": "Sources and your collection"
+  },
+  "catalog_sources_0": {
+    "ru": "M3U по адресу или из файла, подключение через Xtream Codes; несколько источников в одном приложении.",
+    "en": "M3U by URL or file, plus Xtream Codes connections; keep multiple sources in one app."
+  },
+  "catalog_sources_1": {
+    "ru": "Категории, избранное, история просмотра и поиск каналов и передач.",
+    "en": "Categories, favourites, viewing history, and search for channels and programmes."
+  },
+  "catalog_sources_2": {
+    "ru": "«Мой плейлист» объединяет выбранные каналы из разных источников. Создавайте и переименовывайте группы, меняйте порядок, перемещайте и удаляйте каналы из подборки.",
+    "en": "My Playlist brings selected channels from different sources together. Create and rename groups, reorder channels, move them or remove them from your collection."
+  },
+  "catalog_sources_3": {
+    "ru": "Редактирование названия, адреса и данных подключения. Обновление вручную, по расписанию и при запуске — отдельно для каждого источника.",
+    "en": "Edit names, addresses and connection details. Manual, scheduled and startup updates are configured separately for each source."
+  },
+  "catalog_guide": {
+    "ru": "Телегид и архив",
+    "en": "TV guide and catch-up"
+  },
+  "catalog_guide_0": {
+    "ru": "EPG из XMLTV, в том числе gzip; отдельный адрес и настройки обновления для каждого источника, принудительное обновление.",
+    "en": "XMLTV EPG, including gzip; separate addresses and update settings for each source, with manual refresh."
+  },
+  "catalog_guide_1": {
+    "ru": "Трёхчасовой телегид с переходом стрелками между передачами, описания программ и список передач выбранного канала.",
+    "en": "A three-hour guide with arrow-key navigation between programmes, descriptions and a programme list for the selected channel."
+  },
+  "catalog_guide_2": {
+    "ru": "Архив прошедших передач, выбор времени, пауза и перемотка. Пауза эфира с продолжением через архив — при поддержке провайдера.",
+    "en": "Catch-up programmes, time selection, pause and seeking. Pause live TV and resume through catch-up when supported by the provider."
+  },
+  "catalog_windows": {
+    "ru": "Просмотр и два окна PiP",
+    "en": "Playback and two-window PiP"
+  },
+  "catalog_windows_0": {
+    "ru": "Открывайте эфир, архив или локальное видео в основном либо дополнительном окне. Меняйте окна местами, скрывайте или закрывайте PiP; звук идёт из основного окна.",
+    "en": "Open live TV, catch-up or local video in the main window or PiP. Swap windows, hide or close PiP; audio comes from the main window."
+  },
+  "catalog_windows_1": {
+    "ru": "Настройка положения и размера PiP с пульта: шаг 5%, ширина по умолчанию 25%, диапазон 10–75%.",
+    "en": "Adjust PiP position and size with your remote: 5% steps, a default width of 25%, and a 10–75% range."
+  },
+  "catalog_windows_2": {
+    "ru": "Автоматический выбор более лёгкого видеоварианта при проблемах воспроизведения, если он доступен в потоке. При нехватке ресурсов — освобождение PiP для восстановления основного просмотра.",
+    "en": "Automatic selection of a lighter video variant when playback struggles and one is available. If resources run short, PiP can close to help restore the main view."
+  },
+  "catalog_record": {
+    "ru": "Запись эфира и свои видео",
+    "en": "Live recording and your videos"
+  },
+  "catalog_record_0": {
+    "ru": "Начните запись вручную или запланируйте будущую передачу из телегида либо списка программ. Запись одного канала работает независимо от просмотра.",
+    "en": "Start recording manually or schedule a future programme from the guide or programme list. One channel can be recorded independently of what you watch."
+  },
+  "catalog_record_1": {
+    "ru": "Папка Movies/GlassIPTV по умолчанию; выбор доступной папки, в том числе на USB. Каталог показывает записи и другие обнаруженные видеофайлы.",
+    "en": "Movies/GlassIPTV is the default folder; choose another accessible folder, including USB storage. The library lists recordings and other video files found there."
+  },
+  "catalog_record_2": {
+    "ru": "Пауза, перемотка с ускорением при удержании, дорожки и субтитры. Удаление записи из каталога удаляет и файл.",
+    "en": "Pause, seeking that accelerates while a key is held, tracks and subtitles. Deleting a recording from the library also deletes its file."
+  },
+  "catalog_record_3": {
+    "ru": "Остановка вручную и окончание по расписанию завершают запись. Запись поддерживает прямой MPEG-TS и незашифрованный HLS с TS-сегментами.",
+    "en": "Manual stops and scheduled endings finalise recordings. Recording supports direct MPEG-TS and unencrypted HLS with TS segments."
+  },
+  "catalog_plans": {
+    "ru": "Напоминания и расписание",
+    "en": "Reminders and schedules"
+  },
+  "catalog_plans_0": {
+    "ru": "Создавайте напоминания и запланированные записи из телегида и панели передач. Напоминание появляется по центру экрана; в фоне — уведомление.",
+    "en": "Create reminders and scheduled recordings from the guide or programme panel. Reminders appear in the centre of the screen, or as notifications in the background."
+  },
+  "catalog_plans_1": {
+    "ru": "Записи, напоминания и запланированные записи собраны во вкладках верхней панели. Стрелки влево/вправо переключают вкладки без перехода на заголовок.",
+    "en": "Recordings, reminders and scheduled recordings share the top panel. Left/right arrows change tabs without moving focus to a tab heading."
+  },
+  "catalog_plans_2": {
+    "ru": "Удаляйте напоминания и отменяйте будущие записи; устаревшие напоминания очищаются автоматически. Для фоновых задач нужны доступный поток, накопитель и разрешения Android.",
+    "en": "Delete reminders and cancel future recordings; expired reminders are removed automatically. Background tasks need an available stream, storage and the relevant Android permissions."
+  },
+  "catalog_control": {
+    "ru": "Пульт, телефон и интерфейс",
+    "en": "Remote, phone and interface"
+  },
+  "catalog_control_0": {
+    "ru": "Короткое OK — просмотр; долгое OK — действия и выбор окна. Удержание вверх открывает записи и планы, вниз — инструменты.",
+    "en": "Press OK to watch; hold OK for actions and window selection. Hold Up for recordings and plans, or Down for tools."
+  },
+  "catalog_control_1": {
+    "ru": "Ввод номера канала со сменой источника; возврат к предыдущему просмотру, включая видеофайлы.",
+    "en": "Enter a channel number and switch sources from the same panel; return to the previous view, including video files."
+  },
+  "catalog_control_2": {
+    "ru": "Русский и английский языки, выбор при первом запуске. Масштаб интерфейса, прозрачность панелей, анимации и положение экранного пульта.",
+    "en": "Russian and English, with language selection at first launch. Adjust interface scale, panel transparency, animations and on-screen remote position."
+  },
+  "catalog_control_3": {
+    "ru": "Управление D-pad на ТВ и прозрачный экранный пульт на телефоне. Приложение всегда работает в горизонтальной ориентации.",
+    "en": "TV D-pad navigation and a transparent on-screen remote for phones. The app always runs in landscape."
+  },
+  "catalog_audio": {
+    "ru": "Звук, субтитры и изображение",
+    "en": "Audio, subtitles and picture"
+  },
+  "catalog_audio_0": {
+    "ru": "Выбор аудиодорожки, субтитров и формата изображения. Системное или программное декодирование аудио выбирается вручную.",
+    "en": "Choose audio tracks, subtitles and picture aspect ratio. Select system or software audio decoding manually."
+  },
+  "catalog_audio_1": {
+    "ru": "Поддержка конкретных видеоформатов, UHD и двух одновременных потоков зависит от устройства, декодера и источника.",
+    "en": "Support for specific video formats, UHD and two simultaneous streams depends on the device, decoder and source."
+  },
+  "catalog_parental": {
+    "ru": "Родительский контроль",
+    "en": "Parental controls"
+  },
+  "catalog_parental_0": {
+    "ru": "Защитите отдельный канал или категорию долгим OK. Для изменения защиты требуется PIN, даже если просмотр уже разрешён.",
+    "en": "Protect a channel or category by holding OK. Changing protection requires a PIN even if viewing is already unlocked."
+  },
+  "catalog_parental_1": {
+    "ru": "Начальный PIN — 0000. Смена в Settings требует действующего кода. После проверки разрешите один канал или все защищённые каналы на сеанс.",
+    "en": "The initial PIN is 0000. Changing it in Settings requires the current code. After verification, unlock one channel or all protected channels for the session."
+  },
+  "catalog_parental_2": {
+    "ru": "Проверка доступа действует и при открытии в PiP. Автоматического определения взрослого контента нет; сторонние видеофайлы не классифицируются.",
+    "en": "Access checks also apply when opening PiP. Adult content is not detected automatically, and third-party video files are not classified."
+  },
+  "catalog_diagnostics": {
+    "ru": "Диагностика по необходимости",
+    "en": "Diagnostics when you need them"
+  },
+  "catalog_diagnostics_0": {
+    "ru": "Settings → Диагностика. По умолчанию выключена; включайте её для проверки проблемы и выключайте после. Выбор сохраняется.",
+    "en": "Settings → Diagnostics. Off by default; enable it to investigate an issue, then turn it off. Your choice is saved."
+  },
+  "catalog_diagnostics_1": {
+    "ru": "Журналы в Download/GlassIPTV: события плееров, варианты качества и ошибки декодеров. Адреса потоков и PIN не записываются.",
+    "en": "Logs in Download/GlassIPTV include player events, quality variants and decoder errors. Stream addresses and PINs are not recorded."
+  },
+  "catalog_diagnostics_2": {
+    "ru": "Ограниченный объём журнала и фоновая запись пакетами. После выключения завершается последняя выгрузка и останавливается рабочий поток.",
+    "en": "Bounded logs and batched background writes. Turning diagnostics off finishes the final export and stops the logging worker."
   }
 };
