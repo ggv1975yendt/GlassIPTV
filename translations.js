@@ -20,16 +20,16 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.26 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.26 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.28 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.28 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
     "en": "Your evening.<br>Your screen.<br><em>Your rules.</em>"
   },
   "intro": {
-    "ru": "Смотрите матч рядом с фильмом. Возвращайтесь к пропущенному. Сохраняйте любимое. Эфир, архив и ваши видео — в одном плеере.",
-    "en": "Keep the match beside your movie. Catch up on what you missed. Save your favourites. Live TV, catch-up and your videos, together in one player."
+    "ru": "Смотрите матч рядом с фильмом. Ставьте закладки на любимых моментах. Планируйте запись заранее. Эфир, архив и ваши видео — в одном плеере.",
+    "en": "Keep the match beside your movie. Bookmark favourite moments. Schedule recordings ahead. Live TV, catch-up and your videos, together in one player."
   },
   "download": {
     "ru": "Скачать APK",
@@ -92,8 +92,8 @@ const translations = {
     "en": "Two things to watch.<br><em>One evening to enjoy.</em>"
   },
   "pipCopy": {
-    "ru": "Не выбирайте между решающими минутами матча и передачей, которую давно хотели посмотреть. Оставьте второй просмотр в малом окне и меняйте их местами.",
-    "en": "Keep an eye on the final minutes of the match while enjoying the programme you have been waiting for. Keep a second view in the small window and swap them whenever you like."
+    "ru": "Включите PiP: текущий канал останется в малом окне, а предыдущий откроется в основном. Следите за матчем, возвращайтесь к фильму и меняйте окна местами.",
+    "en": "Turn on PiP: your current channel moves to the small window and the previous channel opens in the main view. Follow the match, return to your film and swap windows whenever you like."
   },
   "pip1": {
     "ru": "Два телеканала одновременно",
@@ -188,12 +188,12 @@ const translations = {
     "en": "A reminder one minute before it starts"
   },
   "plan2": {
-    "ru": "Запись от начала до конца передачи по EPG",
-    "en": "Recording scheduled to the programme’s EPG times"
+    "ru": "Запись за 30 секунд до начала — до окончания по EPG",
+    "en": "Recording starts 30 seconds early and ends at the EPG end time"
   },
   "plan3": {
-    "ru": "Записи и планы — в одной верхней панели",
-    "en": "Your recordings and plans in one top panel"
+    "ru": "Записи, планы и закладки — в одной верхней панели",
+    "en": "Recordings, plans and bookmarks in one top panel"
   },
   "tab0": {
     "ru": "Записи",
@@ -252,8 +252,8 @@ const translations = {
     "en": "NATURE · Today · 22:00–23:00"
   },
   "scheduledCopy": {
-    "ru": "Все будущие записи перед глазами. Планы можно отменить.",
-    "en": "See your upcoming recordings at a glance. Cancel a plan anytime."
+    "ru": "Передача в 22:00? Запись начнётся в 21:59:30. Будущий план можно отменить.",
+    "en": "A programme at 22:00? Recording starts at 21:59:30. Cancel an upcoming plan anytime."
   },
   "tabHint": {
     "ru": "← → переключают вкладки из любого места панели",
@@ -392,8 +392,8 @@ const translations = {
     "en": "How do scheduled recordings work?"
   },
   "a3": {
-    "ru": "Выберите будущую передачу в телегиде или списке программ. На Android 12+ может понадобиться разрешение на точные таймеры. Устройство должно быть включено, поток и папка — доступны. Фоновые ограничения Android могут влиять на запуск; после принудительной остановки приложения запись не гарантируется.",
-    "en": "Select a future programme in the guide or programme list. Android 12+ may require exact alarm permission. The device must be on, with access to the stream and recording folder. Android background restrictions can affect the start; recording is not guaranteed after force-stopping the app."
+    "ru": "Выберите будущую передачу в телегиде или списке программ. Запись начинается за 30 секунд до её начала и заканчивается по EPG. На Android 12+ может понадобиться разрешение на точные таймеры. Устройство должно быть включено, поток и папка — доступны. Фоновые ограничения Android могут влиять на запуск; после принудительной остановки приложения запись не гарантируется.",
+    "en": "Choose a future programme in the guide or programme list. Recording starts 30 seconds before it begins and ends at its EPG end time. Android 12+ may require exact alarm permission. The device must be on, with the stream and folder available. Android background restrictions can affect starting; recording is not guaranteed after force-stopping the app."
   },
   "q4": {
     "ru": "Куда сохраняются записи и какие потоки поддерживаются?",
@@ -720,16 +720,16 @@ const translations = {
     "en": "Manual stops and scheduled endings finalise recordings. Recording supports direct MPEG-TS and unencrypted HLS with TS segments."
   },
   "catalog_plans": {
-    "ru": "Напоминания и расписание",
-    "en": "Reminders and schedules"
+    "ru": "Напоминания, расписание и закладки",
+    "en": "Reminders, schedules and bookmarks"
   },
   "catalog_plans_0": {
     "ru": "Создавайте напоминания и запланированные записи из телегида и панели передач. Напоминание появляется по центру экрана; в фоне — уведомление.",
     "en": "Create reminders and scheduled recordings from the guide or programme panel. Reminders appear in the centre of the screen, or as notifications in the background."
   },
   "catalog_plans_1": {
-    "ru": "Записи, напоминания и запланированные записи собраны во вкладках верхней панели. Стрелки влево/вправо переключают вкладки без перехода на заголовок.",
-    "en": "Recordings, reminders and scheduled recordings share the top panel. Left/right arrows change tabs without moving focus to a tab heading."
+    "ru": "Записи, напоминания, запланированные записи и закладки собраны в четырёх вкладках верхней панели. Стрелки влево/вправо переключают вкладки без перехода на заголовок.",
+    "en": "Recordings, reminders, scheduled recordings and bookmarks share four tabs in the top panel. Left/right arrows change tabs without moving focus to a tab heading."
   },
   "catalog_plans_2": {
     "ru": "Удаляйте напоминания и отменяйте будущие записи; устаревшие напоминания очищаются автоматически. Для фоновых задач нужны доступный поток, накопитель и разрешения Android.",
@@ -798,5 +798,53 @@ const translations = {
   "catalog_diagnostics_2": {
     "ru": "Ограниченный объём журнала и фоновая запись пакетами. После выключения завершается последняя выгрузка и останавливается рабочий поток.",
     "en": "Bounded logs and batched background writes. Turning diagnostics off finishes the final export and stops the logging worker."
+  },
+  "tab3": {
+    "ru": "Закладки",
+    "en": "Bookmarks"
+  },
+  "bookmarkLabel": {
+    "ru": "СОХРАНИТЕ МОМЕНТ",
+    "en": "SAVE THE MOMENT"
+  },
+  "bookmarkTitle": {
+    "ru": "Интересный момент?<br><em>Вернитесь к нему.</em>",
+    "en": "A moment worth saving?<br><em>Come back to it.</em>"
+  },
+  "bookmarkCopy": {
+    "ru": "Добавьте закладку из панели инструментов во время эфира или просмотра архива. Откройте её позже из верхней панели — без поиска передачи и ручной перемотки.",
+    "en": "Add a bookmark from the toolbar during live TV or catch-up. Open it later from the top panel, without finding the programme and seeking manually."
+  },
+  "bookmarkHint": {
+    "ru": "На каналах с архивом. Доступность закладки зависит от срока хранения архива у провайдера.",
+    "en": "For channels with catch-up. Bookmarks remain playable while the provider keeps that part of the archive."
+  },
+  "bookmarkMeta": {
+    "ru": "NATURE · Наедине с природой · 20:42",
+    "en": "NATURE · Closer to nature · 20:42"
+  },
+  "bookmarkActions": {
+    "ru": "Открыть · Удалить",
+    "en": "Open · Delete"
+  },
+  "bookmarkSaved": {
+    "ru": "Закладки сохраняются после перезапуска. Защищённый канал запросит PIN.",
+    "en": "Bookmarks survive app restarts. Protected channels require a PIN."
+  },
+  "catalog_plans_3": {
+    "ru": "Запись по расписанию начинается за 30 секунд до передачи и заканчивается по EPG. Запас учитывается при проверке пересечений: одновременно записывается один канал.",
+    "en": "Scheduled recording starts 30 seconds before the programme and ends at its EPG end time. Conflict checks include this lead-in; one channel can be recorded at a time."
+  },
+  "catalog_plans_4": {
+    "ru": "Сохраняйте закладки моментов эфира и архива через инструменты. Открывайте и удаляйте их во вкладке «Закладки»; при открытии проверяются срок архива и PIN.",
+    "en": "Bookmark moments from live TV and catch-up using the toolbar. Open or delete them in the Bookmarks tab; archive availability and PIN protection are checked when opening."
+  },
+  "catalog_windows_3": {
+    "ru": "При включении PiP текущий канал переходит в малое окно, предыдущий — в основное. Если предыдущего нет, открывается копия текущего.",
+    "en": "When PiP opens, the current channel moves to the small window and the previous channel becomes the main view. Without a previous channel, PiP shows a copy of the current one."
+  },
+  "catalog_guide_3": {
+    "ru": "Автоматическое обновление EPG можно отключить для каждого источника; ручное обновление остаётся доступным. Отключение отменяет соответствующие задания и повторные попытки.",
+    "en": "Turn off automatic EPG updates for each source while keeping manual refresh available. Disabling updates cancels the corresponding jobs and retries."
   }
 };
