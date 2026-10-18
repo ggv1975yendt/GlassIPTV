@@ -20,16 +20,16 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.28 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.28 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.35 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.35 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
     "en": "Your evening.<br>Your screen.<br><em>Your rules.</em>"
   },
   "intro": {
-    "ru": "Смотрите матч рядом с фильмом. Ставьте закладки на любимых моментах. Планируйте запись заранее. Эфир, архив и ваши видео — в одном плеере.",
-    "en": "Keep the match beside your movie. Bookmark favourite moments. Schedule recordings ahead. Live TV, catch-up and your videos, together in one player."
+    "ru": "Смотрите любимое. Находите новое. Сохраняйте то, к чему хочется вернуться. Эфир, архив и ваши видео — вместе в Glass IPTV.",
+    "en": "Watch your favourites. Find something new. Save what you want to return to. Live TV, catch-up and your videos — together in Glass IPTV."
   },
   "download": {
     "ru": "Скачать APK",
@@ -788,8 +788,8 @@ const translations = {
     "en": "Diagnostics when you need them"
   },
   "catalog_diagnostics_0": {
-    "ru": "Settings → Диагностика. По умолчанию выключена; включайте её для проверки проблемы и выключайте после. Выбор сохраняется.",
-    "en": "Settings → Diagnostics. Off by default; enable it to investigate an issue, then turn it off. Your choice is saved."
+    "ru": "Диагностика доступна в скрытых настройках. По умолчанию выключена; включайте её для проверки проблемы и выключайте после. Выбор сохраняется.",
+    "en": "Diagnostics are available in hidden settings. Off by default; enable it to investigate an issue, then turn it off. Your choice is saved."
   },
   "catalog_diagnostics_1": {
     "ru": "Журналы в Download/GlassIPTV: события плееров, варианты качества и ошибки декодеров. Адреса потоков и PIN не записываются.",
@@ -812,8 +812,8 @@ const translations = {
     "en": "A moment worth saving?<br><em>Come back to it.</em>"
   },
   "bookmarkCopy": {
-    "ru": "Добавьте закладку из панели инструментов во время эфира или просмотра архива. Откройте её позже из верхней панели — без поиска передачи и ручной перемотки.",
-    "en": "Add a bookmark from the toolbar during live TV or catch-up. Open it later from the top panel, without finding the programme and seeking manually."
+    "ru": "Сохраните момент эфира или архива из панели инструментов. Или удерживайте OK на передаче в поиске и добавьте закладку на её начало. Открывайте сохранённое во вкладке «Закладки» верхней панели.",
+    "en": "Save a moment from live TV or catch-up in the toolbar. Or hold OK on a programme in search and bookmark its start. Open saved moments in the top panel’s Bookmarks tab."
   },
   "bookmarkHint": {
     "ru": "На каналах с архивом. Доступность закладки зависит от срока хранения архива у провайдера.",
@@ -846,5 +846,53 @@ const translations = {
   "catalog_guide_3": {
     "ru": "Автоматическое обновление EPG можно отключить для каждого источника; ручное обновление остаётся доступным. Отключение отменяет соответствующие задания и повторные попытки.",
     "en": "Turn off automatic EPG updates for each source while keeping manual refresh available. Disabling updates cancels the corresponding jobs and retries."
+  },
+  "searchLabel": {
+    "ru": "МЕНЬШЕ ПОИСКОВ. БОЛЬШЕ КИНО.",
+    "en": "LESS SEARCHING. MORE WATCHING."
+  },
+  "searchTitle": {
+    "ru": "Нашли передачу?<br><em>Оставьте на вечер.</em>",
+    "en": "Found a programme?<br><em>Save it for tonight.</em>"
+  },
+  "searchCopy": {
+    "ru": "Ищите каналы и передачи в одном источнике или сразу во всех. Выбирайте, что идёт сейчас, начнётся позже или доступно в архиве.",
+    "en": "Search channels and programmes in one source or across all of them. Find what’s live, coming up or available in catch-up."
+  },
+  "searchRoute": {
+    "ru": "Удерживайте ↓ во время просмотра → Поиск → OK. Вводите название экранной клавиатурой с пульта или обычной клавиатурой.",
+    "en": "Hold ↓ while watching → Search → OK. Enter a title using the remote-friendly on-screen keyboard or a physical keyboard."
+  },
+  "searchSave": {
+    "ru": "Удерживайте OK на найденной передаче → «Добавить закладку». Вернитесь к ней во вкладке «Закладки» верхней панели: удержание ↑.",
+    "en": "Hold OK on a programme result → Add bookmark. Return to it in the top panel’s Bookmarks tab: hold ↑."
+  },
+  "searchLimit": {
+    "ru": "Поиск передач использует загруженную программу. Закладки передач доступны на каналах с архивом; срок просмотра зависит от провайдера.",
+    "en": "Programme search uses the downloaded guide. Programme bookmarks require a catch-up channel; viewing availability depends on your provider."
+  },
+  "searchQuery": {
+    "ru": "Океан",
+    "en": "Ocean"
+  },
+  "searchScope": {
+    "ru": "ПЕРЕДАЧИ · ВСЕ ИСТОЧНИКИ",
+    "en": "PROGRAMMES · ALL SOURCES"
+  },
+  "searchResult": {
+    "ru": "Океан изнутри",
+    "en": "Inside the ocean"
+  },
+  "searchMeta": {
+    "ru": "NATURE · Сегодня · 22:00–23:00",
+    "en": "NATURE · Today · 22:00–23:00"
+  },
+  "searchAction": {
+    "ru": "◇ Добавить закладку",
+    "en": "◇ Add bookmark"
+  },
+  "searchIllustration": {
+    "ru": "Иллюстрация поиска и меню передачи",
+    "en": "Illustration of search and the programme menu"
   }
 };
