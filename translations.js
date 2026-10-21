@@ -20,8 +20,8 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.35 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.35 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.40 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.40 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
