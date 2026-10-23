@@ -20,8 +20,8 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.40 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.40 · FOR ANDROID"
+    "ru": "GLASS IPTV 1.3.42 · ДЛЯ ANDROID",
+    "en": "GLASS IPTV 1.3.42 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
@@ -40,8 +40,8 @@ const translations = {
     "en": "Explore the modes ↗"
   },
   "heroFine": {
-    "ru": "Android 8.0+ · 8,8 МБ · Ваш IPTV-источник",
-    "en": "Android 8.0+ · 8.8 MB · Your IPTV source"
+    "ru": "Android 8.0+ · 8,9 МБ · Ваш IPTV-источник",
+    "en": "Android 8.0+ · 8.9 MB · Your IPTV source"
   },
   "screenEvening": {
     "ru": "ВРЕМЯ ДЛЯ СЕБЯ",
@@ -376,8 +376,8 @@ const translations = {
     "en": "Which devices can I use?"
   },
   "a1": {
-    "ru": "Android TV, Google TV и телефоны с Android 8.0+. На телефоне приложение работает в горизонтальной ориентации с экранным пультом. Поддержка форматов зависит от устройства и декодера.",
-    "en": "Android TV, Google TV and phones running Android 8.0+. The phone interface uses landscape orientation and an on-screen remote. Format support depends on the device and decoder."
+    "ru": "Android TV, Google TV и телефоны с Android 8.0+. На телефоне доступны касания, вставка адресов и экранный пульт; приложение работает горизонтально. Поддержка форматов зависит от устройства и декодера.",
+    "en": "Android TV, Google TV and phones with Android 8.0+. Phones support touch, address pasting and an on-screen remote in landscape. Format support depends on the device and decoder."
   },
   "q2": {
     "ru": "Что нужно для PiP, UHD и паузы эфира?",
@@ -412,8 +412,8 @@ const translations = {
     "en": "Your channels. Your recordings. Your way to watch."
   },
   "downloadFine": {
-    "ru": "APK · 8,8 МБ · Android 8.0+",
-    "en": "APK · 8.8 MB · Android 8.0+"
+    "ru": "APK · 8,9 МБ · Android 8.0+",
+    "en": "APK · 8.9 MB · Android 8.0+"
   },
   "downloadSource": {
     "ru": "Каналы подключаются отдельно",
@@ -664,16 +664,16 @@ const translations = {
     "en": "My Playlist brings selected channels from different sources together. Create and rename groups, reorder channels, move them or remove them from your collection."
   },
   "catalog_sources_3": {
-    "ru": "Редактирование названия, адреса и данных подключения. Обновление вручную, по расписанию и при запуске — отдельно для каждого источника.",
-    "en": "Edit names, addresses and connection details. Manual, scheduled and startup updates are configured separately for each source."
+    "ru": "Для каждого источника: при запуске, раз в день, раз в неделю или вручную. Срок проверяется при открытии приложения и возврате из фона, без фонового таймера.",
+    "en": "For each source: on launch, daily, weekly or manually. Updates are checked when opening or returning to the app, without a background timer."
   },
   "catalog_guide": {
     "ru": "Телегид и архив",
     "en": "TV guide and catch-up"
   },
   "catalog_guide_0": {
-    "ru": "EPG из XMLTV, в том числе gzip; отдельный адрес и настройки обновления для каждого источника, принудительное обновление.",
-    "en": "XMLTV EPG, including gzip; separate addresses and update settings for each source, with manual refresh."
+    "ru": "XMLTV, включая gzip. Для EPG каждого источника — при запуске, ежедневно, еженедельно или вручную; также доступно обновление после каналов.",
+    "en": "XMLTV, including gzip. Each source’s EPG can refresh on launch, daily, weekly or manually, with an optional refresh after channel updates."
   },
   "catalog_guide_1": {
     "ru": "Трёхчасовой телегид с переходом стрелками между передачами, описания программ и список передач выбранного канала.",
@@ -748,12 +748,12 @@ const translations = {
     "en": "Enter a channel number and switch sources from the same panel; return to the previous view, including video files."
   },
   "catalog_control_2": {
-    "ru": "Русский и английский языки, выбор при первом запуске. Масштаб интерфейса, прозрачность панелей, анимации и положение экранного пульта.",
-    "en": "Russian and English, with language selection at first launch. Adjust interface scale, panel transparency, animations and on-screen remote position."
+    "ru": "Пять готовых тем и Кастом: цвета панелей, текста и выделения, толщина рамки фокуса. Предпросмотр, сохранение и отмена. Прозрачность и масштаб — в разделе «Интерфейс».",
+    "en": "Five presets and a custom theme: panel, text and selection colours, plus focus border width. Preview, save or cancel. Transparency and scale remain under Interface."
   },
   "catalog_control_3": {
-    "ru": "Управление D-pad на ТВ и прозрачный экранный пульт на телефоне. Приложение всегда работает в горизонтальной ориентации.",
-    "en": "TV D-pad navigation and a transparent on-screen remote for phones. The app always runs in landscape."
+    "ru": "Пульт D-pad на ТВ; касания и вставка текста на телефоне включены по умолчанию. Экранный пульт сохранён. Режим только D-pad можно включить в скрытых настройках.",
+    "en": "D-pad navigation on TV; touch and text pasting enabled by default on phones. The on-screen remote remains available. D-pad-only mode is available in hidden settings."
   },
   "catalog_audio": {
     "ru": "Звук, субтитры и изображение",
@@ -864,8 +864,8 @@ const translations = {
     "en": "Hold ↓ while watching → Search → OK. Enter a title using the remote-friendly on-screen keyboard or a physical keyboard."
   },
   "searchSave": {
-    "ru": "Удерживайте OK на найденной передаче → «Добавить закладку». Вернитесь к ней во вкладке «Закладки» верхней панели: удержание ↑.",
-    "en": "Hold OK on a programme result → Add bookmark. Return to it in the top panel’s Bookmarks tab: hold ↑."
+    "ru": "Нажмите OK на найденной передаче → «Добавить закладку». Вернитесь к ней во вкладке «Закладки» верхней панели: удержание ↑.",
+    "en": "Press OK on a programme result → Add bookmark. Return to it in the top panel’s Bookmarks tab: hold ↑."
   },
   "searchLimit": {
     "ru": "Поиск передач использует загруженную программу. Закладки передач доступны на каналах с архивом; срок просмотра зависит от провайдера.",
@@ -894,5 +894,53 @@ const translations = {
   "searchIllustration": {
     "ru": "Иллюстрация поиска и меню передачи",
     "en": "Illustration of search and the programme menu"
+  },
+  "themeNav": {
+    "ru": "Оформление",
+    "en": "Appearance"
+  },
+  "themeLabel": {
+    "ru": "ЦВЕТА ВАШЕГО ВЕЧЕРА",
+    "en": "COLOURS FOR YOUR EVENING"
+  },
+  "themeTitle": {
+    "ru": "Ваш экран.<br><em>В ваших цветах.</em>",
+    "en": "Your screen.<br><em>Your colours.</em>"
+  },
+  "themeCopy": {
+    "ru": "Оригинальная, Графит, Холодное стекло, Тёплое стекло и Высокая контрастность. Выберите готовую тему или создайте свою в «Интерфейс → Темы».",
+    "en": "Original, Graphite, Cool Glass, Warm Glass and High Contrast. Pick a preset or make it your own in Interface → Themes."
+  },
+  "themeDetail": {
+    "ru": "Для каждого цвета — шесть готовых кружков и «+» для ручного ввода. Настраивайте панели, основной и второстепенный текст, заливку и рамку выделения. Толщина рамки — отдельно.",
+    "en": "Each colour has six swatches and a “+” for custom input. Adjust panels, primary and secondary text, selection fill and border. Border width has its own control."
+  },
+  "themeHint": {
+    "ru": "Попробуйте цвета здесь. Это иллюстрация: настройки приложения не меняются.",
+    "en": "Try the colours here. This is an illustration; your app settings stay unchanged."
+  },
+  "themePanel": {
+    "ru": "Цвет панели",
+    "en": "Panel colour"
+  },
+  "themeText": {
+    "ru": "Цвет текста",
+    "en": "Text colour"
+  },
+  "themeFocus": {
+    "ru": "Цвет выделения",
+    "en": "Selection colour"
+  },
+  "themeDemoTitle": {
+    "ru": "Ваш вечер начинается здесь",
+    "en": "Your evening starts here"
+  },
+  "themeDemoItem": {
+    "ru": "Океан изнутри · 22:00",
+    "en": "Inside the ocean · 22:00"
+  },
+  "themeCustom": {
+    "ru": "Задать свой цвет",
+    "en": "Choose a custom colour"
   }
 };

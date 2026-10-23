@@ -72,6 +72,14 @@
     selectLibrary(next, true, Boolean(event.target.closest('[role="tabpanel"]')));
   });
   let saved;
+  function updateColour(key, value) {
+    byId('theme-preview').style.setProperty('--demo-' + key, value);
+    document.querySelectorAll('[data-colour="' + key + '"]').forEach(button =>
+      button.setAttribute('aria-pressed', String(button.dataset.value === value)));
+    document.querySelector('[data-custom="' + key + '"]').value = value;
+  }
+  document.querySelectorAll('[data-colour]').forEach(button => button.addEventListener('click', () => updateColour(button.dataset.colour, button.dataset.value)));
+  document.querySelectorAll('[data-custom]').forEach(input => input.addEventListener('input', () => updateColour(input.dataset.custom, input.value)));
   try { saved = localStorage.getItem('glass-promo-language'); } catch (_) {}
   setLanguage(saved === 'ru' || saved === 'en' ? saved : navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : 'en');
 })();
