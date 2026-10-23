@@ -748,7 +748,7 @@ const translations = {
     "en": "Enter a channel number and switch sources from the same panel; return to the previous view, including video files."
   },
   "catalog_control_2": {
-    "ru": "Пять готовых тем и Кастом: цвета панелей, текста и выделения, толщина рамки фокуса. Предпросмотр, сохранение и отмена. Прозрачность и масштаб — в разделе «Интерфейс».",
+    "ru": "Пять готовых тем и Кастом: цвета панелей, текста и фокуса, толщина рамки фокуса. Предпросмотр, сохранение и отмена. Прозрачность и масштаб — в разделе «Интерфейс».",
     "en": "Five presets and a custom theme: panel, text and selection colours, plus focus border width. Preview, save or cancel. Transparency and scale remain under Interface."
   },
   "catalog_control_3": {
@@ -912,7 +912,7 @@ const translations = {
     "en": "Original, Graphite, Cool Glass, Warm Glass and High Contrast. Pick a preset or make it your own in Interface → Themes."
   },
   "themeDetail": {
-    "ru": "Для каждого цвета — шесть готовых кружков и «+» для ручного ввода. Настраивайте панели, основной и второстепенный текст, заливку и рамку выделения. Толщина рамки — отдельно.",
+    "ru": "Для каждого цвета — шесть готовых кружков и «+» для ручного ввода. Настраивайте панели, основной и второстепенный текст, заливку и рамку фокуса. Толщина рамки — отдельно.",
     "en": "Each colour has six swatches and a “+” for custom input. Adjust panels, primary and secondary text, selection fill and border. Border width has its own control."
   },
   "themeHint": {
@@ -928,7 +928,7 @@ const translations = {
     "en": "Text colour"
   },
   "themeFocus": {
-    "ru": "Цвет выделения",
+    "ru": "Цвет фокуса",
     "en": "Selection colour"
   },
   "themeDemoTitle": {
