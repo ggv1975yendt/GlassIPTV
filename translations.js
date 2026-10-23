@@ -20,16 +20,16 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "GLASS IPTV 1.3.42 · ДЛЯ ANDROID",
-    "en": "GLASS IPTV 1.3.42 · FOR ANDROID"
+    "ru": "Lumora TV Player 1.3.42 · ДЛЯ ANDROID",
+    "en": "Lumora TV Player 1.3.42 · FOR ANDROID"
   },
   "headline": {
     "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
     "en": "Your evening.<br>Your screen.<br><em>Your rules.</em>"
   },
   "intro": {
-    "ru": "Смотрите любимое. Находите новое. Сохраняйте то, к чему хочется вернуться. Эфир, архив и ваши видео — вместе в Glass IPTV.",
-    "en": "Watch your favourites. Find something new. Save what you want to return to. Live TV, catch-up and your videos — together in Glass IPTV."
+    "ru": "Смотрите любимое. Находите новое. Сохраняйте то, к чему хочется вернуться. Эфир, архив и ваши видео — вместе в Lumora TV Player.",
+    "en": "Watch your favourites. Find something new. Save what you want to return to. Live TV, catch-up and your videos — together in Lumora TV Player."
   },
   "download": {
     "ru": "Скачать APK",
@@ -132,7 +132,7 @@ const translations = {
     "en": "Great programmes.<br>On your own time."
   },
   "featuresCopy": {
-    "ru": "Включайте сейчас, возвращайтесь позже или сохраняйте себе. Glass IPTV подстраивается под ваши планы.",
+    "ru": "Включайте сейчас, возвращайтесь позже или сохраняйте себе. Lumora TV Player подстраивается под ваши планы.",
     "en": "Watch now, come back later or keep a copy. Make television fit your plans."
   },
   "archiveTitle": {
@@ -332,8 +332,8 @@ const translations = {
     "en": "Install. Connect.<br><em>Make yourself comfortable.</em>"
   },
   "sourceNote": {
-    "ru": "Glass IPTV — плеер. Каналы не включены: используйте свой плейлист или доступ от IPTV-провайдера.",
-    "en": "Glass IPTV is a player. Channels are not included: use your own playlist or IPTV provider account."
+    "ru": "Lumora TV Player — плеер. Каналы не включены: используйте свой плейлист или доступ от IPTV-провайдера.",
+    "en": "Lumora TV Player is a player. Channels are not included: use your own playlist or IPTV provider account."
   },
   "step1": {
     "ru": "Скачайте APK",
@@ -432,8 +432,8 @@ const translations = {
     "en": "Navigation"
   },
   "screenAlt": {
-    "ru": "Иллюстрация режимов просмотра Glass IPTV",
-    "en": "Illustration of Glass IPTV viewing modes"
+    "ru": "Иллюстрация режимов просмотра Lumora TV Player",
+    "en": "Illustration of Lumora TV Player viewing modes"
   },
   "modesAlt": {
     "ru": "Режимы просмотра",
@@ -448,12 +448,12 @@ const translations = {
     "en": "Top panel"
   },
   "title": {
-    "ru": "Glass IPTV — ваш вечер, ваши правила",
-    "en": "Glass IPTV — your evening, your rules"
+    "ru": "Lumora TV Player — ваш вечер, ваши правила",
+    "en": "Lumora TV Player — your evening, your rules"
   },
   "description": {
-    "ru": "Glass IPTV для Android TV: ваши плейлисты, два окна PiP, архив, запись по расписанию и PIN-защита. Скачайте APK и смотрите по-своему.",
-    "en": "Glass IPTV for Android TV: your playlists, two-window PiP, catch-up, scheduled recordings and PIN protection. Download the APK and watch your way."
+    "ru": "Lumora TV Player для Android TV: ваши плейлисты, два окна PiP, архив, запись по расписанию и PIN-защита. Скачайте APK и смотрите по-своему.",
+    "en": "Lumora TV Player for Android TV: your playlists, two-window PiP, catch-up, scheduled recordings and PIN protection. Download the APK and watch your way."
   },
   "sceneNature": {
     "ru": "Там, где<br>тише.",
