@@ -1,6 +1,6 @@
 # Lumora TV Player
 
-**Ваш экран. Ваше время. / Your screen. Your time.**
+**Твой экран. Твои правила. / Your Screen. Your Rules.**
 
 [Русский](#русский) · [English](#english)
 
@@ -60,12 +60,12 @@ Lumora TV Player — плеер для Android TV, Google TV и телефоно
 
 ### Как начать
 
-1. Скачайте APK 1.3.4 и установите его на Android 8.0+.
+1. [Скачайте APK 1.3.43](../releases/Lumora-TV-Player-1.3.43-release.apk) и установите его на Android 8.0+.
 2. Выберите язык и добавьте M3U или Xtream Codes.
 3. При необходимости укажите адрес XMLTV и настройте периодичность обновления.
 4. Откройте канал и выберите оформление в разделе «Интерфейс».
 
-Размер APK — около 8,9 МБ. Описание соответствует версии 1.3.42.
+[Открыть промостраницу](index.html). Описание соответствует версии 1.3.43.
 
 ## English
 
@@ -123,13 +123,15 @@ Preview changes before saving, cancel them or restore the original appearance. P
 
 ### Get started
 
-1. Download APK 1.3.42 and install it on Android 8.0+.
+1. [Download APK 1.3.43](../releases/Lumora-TV-Player-1.3.43-release.apk) and install it on Android 8.0+.
 2. Choose your language and add an M3U or Xtream Codes source.
 3. Add an XMLTV address if needed and choose your refresh frequency.
 4. Open a channel and customise the appearance under Interface.
 
-APK size: approximately 8.9 MB. This description covers version 1.3.42.
+[Open the promo page](index.html). This description covers version 1.3.43.
 
 ---
 
+Промостраница — статические HTML/CSS/JS без сборки. Для локального просмотра откройте index.html или запустите HTTP-сервер из корня проекта и перейдите к /promo/index.html. При размещении сохраните относительный путь к APK либо обновите ссылки. [История промостраницы](../reports/promo-2026-10-23/promo-readme-history.md).
 
+The promo page uses static HTML/CSS/JS with no build step. For a local preview, open index.html or serve the project root over HTTP and visit /promo/index.html. When hosting, preserve the relative APK path or update the links. [Promo page history](../reports/promo-2026-10-23/promo-readme-history.md).

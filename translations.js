@@ -20,16 +20,16 @@ const translations = {
     "en": "Download ↗"
   },
   "release": {
-    "ru": "Lumora TV Player 1.3.42 · ДЛЯ ANDROID",
-    "en": "Lumora TV Player 1.3.42 · FOR ANDROID"
+    "ru": "LUMORA TV PLAYER 1.3.43 · ДЛЯ ANDROID",
+    "en": "LUMORA TV PLAYER 1.3.43 · FOR ANDROID"
   },
   "headline": {
-    "ru": "Ваш вечер.<br>Ваш экран.<br><em>Ваши правила.</em>",
-    "en": "Your evening.<br>Your screen.<br><em>Your rules.</em>"
+    "ru": "Твой экран.<br><em>Твои правила.</em>",
+    "en": "Your Screen.<br><em>Your Rules.</em>"
   },
   "intro": {
-    "ru": "Смотрите любимое. Находите новое. Сохраняйте то, к чему хочется вернуться. Эфир, архив и ваши видео — вместе в Lumora TV Player.",
-    "en": "Watch your favourites. Find something new. Save what you want to return to. Live TV, catch-up and your videos — together in Lumora TV Player."
+    "ru": "Современный IPTV-плеер с удобным управлением, прозрачным интерфейсом и возможностью настроить просмотр под себя.",
+    "en": "A modern IPTV player with intuitive controls, a transparent interface, and a viewing experience you can make your own."
   },
   "download": {
     "ru": "Скачать APK",
@@ -40,8 +40,8 @@ const translations = {
     "en": "Explore the modes ↗"
   },
   "heroFine": {
-    "ru": "Android 8.0+ · 8,9 МБ · Ваш IPTV-источник",
-    "en": "Android 8.0+ · 8.9 MB · Your IPTV source"
+    "ru": "Android 8.0+ · Ваш IPTV-источник",
+    "en": "Android 8.0+ · Your IPTV source"
   },
   "screenEvening": {
     "ru": "ВРЕМЯ ДЛЯ СЕБЯ",
@@ -412,16 +412,16 @@ const translations = {
     "en": "Your channels. Your recordings. Your way to watch."
   },
   "downloadFine": {
-    "ru": "APK · 8,9 МБ · Android 8.0+",
-    "en": "APK · 8.9 MB · Android 8.0+"
+    "ru": "APK · Android 8.0+",
+    "en": "APK · Android 8.0+"
   },
   "downloadSource": {
     "ru": "Каналы подключаются отдельно",
     "en": "Add your own channels"
   },
   "footer": {
-    "ru": "/ Ваш экран. Ваше время.",
-    "en": "/ Your screen. Your time."
+    "ru": "/ Твой экран. Твои правила.",
+    "en": "/ Your Screen. Your Rules."
   },
   "footerRight": {
     "ru": "Плеер для ваших источников · 2026",
@@ -448,8 +448,8 @@ const translations = {
     "en": "Top panel"
   },
   "title": {
-    "ru": "Lumora TV Player — ваш вечер, ваши правила",
-    "en": "Lumora TV Player — your evening, your rules"
+    "ru": "Lumora TV Player — Твой экран. Твои правила.",
+    "en": "Lumora TV Player — Your Screen. Your Rules."
   },
   "description": {
     "ru": "Lumora TV Player для Android TV: ваши плейлисты, два окна PiP, архив, запись по расписанию и PIN-защита. Скачайте APK и смотрите по-своему.",
@@ -748,7 +748,7 @@ const translations = {
     "en": "Enter a channel number and switch sources from the same panel; return to the previous view, including video files."
   },
   "catalog_control_2": {
-    "ru": "Пять готовых тем и Кастом: цвета панелей, текста и фокуса, толщина рамки фокуса. Предпросмотр, сохранение и отмена. Прозрачность и масштаб — в разделе «Интерфейс».",
+    "ru": "Пять готовых тем и Кастом: цвета панелей, текста и выделения, толщина рамки фокуса. Предпросмотр, сохранение и отмена. Прозрачность и масштаб — в разделе «Интерфейс».",
     "en": "Five presets and a custom theme: panel, text and selection colours, plus focus border width. Preview, save or cancel. Transparency and scale remain under Interface."
   },
   "catalog_control_3": {
@@ -912,7 +912,7 @@ const translations = {
     "en": "Original, Graphite, Cool Glass, Warm Glass and High Contrast. Pick a preset or make it your own in Interface → Themes."
   },
   "themeDetail": {
-    "ru": "Для каждого цвета — шесть готовых кружков и «+» для ручного ввода. Настраивайте панели, основной и второстепенный текст, заливку и рамку фокуса. Толщина рамки — отдельно.",
+    "ru": "Для каждого цвета — шесть готовых кружков и «+» для ручного ввода. Настраивайте панели, основной и второстепенный текст, заливку и рамку выделения. Толщина рамки — отдельно.",
     "en": "Each colour has six swatches and a “+” for custom input. Adjust panels, primary and secondary text, selection fill and border. Border width has its own control."
   },
   "themeHint": {
@@ -928,8 +928,8 @@ const translations = {
     "en": "Text colour"
   },
   "themeFocus": {
-    "ru": "Цвет фокуса",
-    "en": "Selection colour"
+    "ru": "Заливка выделения",
+    "en": "Focus fill"
   },
   "themeDemoTitle": {
     "ru": "Ваш вечер начинается здесь",
@@ -942,5 +942,93 @@ const translations = {
   "themeCustom": {
     "ru": "Задать свой цвет",
     "en": "Choose a custom colour"
+  },
+  "rebrandTitle": {
+    "ru": "Glass IPTV становится Lumora TV Player",
+    "en": "Glass IPTV is becoming Lumora TV Player"
+  },
+  "rebrandCopy": {
+    "ru": "Новое имя. Знакомые возможности. Ещё больше впереди.",
+    "en": "New name. Familiar features. More to come."
+  },
+  "heroineAlt": {
+    "ru": "Героиня Lumora TV Player в фирменном 3D-стиле",
+    "en": "The Lumora TV Player character in the signature 3D style"
+  },
+  "natureTag": {
+    "ru": "ПРИРОДА",
+    "en": "NATURE"
+  },
+  "sportTag": {
+    "ru": "СПОРТ",
+    "en": "SPORT"
+  },
+  "natureKicker": {
+    "ru": "ПРИРОДА / ДОКУМЕНТАЛЬНОЕ",
+    "en": "NATURE / DOCUMENTARY"
+  },
+  "sportKicker": {
+    "ru": "СПОРТ / ПРЯМОЙ ЭФИР",
+    "en": "SPORT / LIVE"
+  },
+  "score": {
+    "ru": "ХОЗЯЕВА 2 : 1 ГОСТИ",
+    "en": "HOME 2 : 1 AWAY"
+  },
+  "themeSecondary": {
+    "ru": "Дополнительный текст",
+    "en": "Secondary text"
+  },
+  "themeBorder": {
+    "ru": "Рамка выделения",
+    "en": "Focus border"
+  },
+  "themeWidth": {
+    "ru": "Толщина рамки",
+    "en": "Border width"
+  },
+  "themeOpacity": {
+    "ru": "Прозрачность панели",
+    "en": "Panel transparency"
+  },
+  "themeScale": {
+    "ru": "Масштаб интерфейса",
+    "en": "Interface scale"
+  },
+  "themePreset": {
+    "ru": "Тема",
+    "en": "Theme"
+  },
+  "themeOriginal": {
+    "ru": "Оригинальная",
+    "en": "Original"
+  },
+  "themeGraphite": {
+    "ru": "Графит",
+    "en": "Graphite"
+  },
+  "themeCool": {
+    "ru": "Холодное стекло",
+    "en": "Cool Glass"
+  },
+  "themeWarm": {
+    "ru": "Тёплое стекло",
+    "en": "Warm Glass"
+  },
+  "themeContrast": {
+    "ru": "Высокая контрастность",
+    "en": "High Contrast"
+  },
+  "themeCustomName": {
+    "ru": "Кастом",
+    "en": "Custom"
+  },
+  "themeSampleSecondary": {
+    "ru": "Описание передачи",
+    "en": "Programme description"
+  },
+  "themeSeparate": {
+    "ru": "В приложении прозрачность и масштаб настраиваются отдельно в разделе «Интерфейс».",
+    "en": "In the app, transparency and scale are separate settings under Interface."
   }
 };

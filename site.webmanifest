@@ -1,0 +1,16 @@
+{
+  "name": "Lumora TV Player",
+  "short_name": "Lumora TV",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#070d21",
+  "theme_color": "#070d21",
+  "icons": [
+    {
+      "src": "assets/lumora-icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
