@@ -1,4 +1,4 @@
-# Glass IPTV
+# Lumora TV Player
 
 **Ваш экран. Ваше время. / Your screen. Your time.**
 
@@ -6,7 +6,7 @@
 
 ## Русский
 
-Glass IPTV — плеер для Android TV, Google TV и телефонов с Android 8.0 и новее. Прямой эфир, программа передач, архив провайдера, записи и ваши видео собраны в интерфейсе с полупрозрачными стеклянными панелями.
+Lumora TV Player — плеер для Android TV, Google TV и телефонов с Android 8.0 и новее. Прямой эфир, программа передач, архив провайдера, записи и ваши видео собраны в интерфейсе с полупрозрачными стеклянными панелями.
 
 Приложение не предоставляет каналы и не продаёт подписки. Для просмотра нужен ваш M3U-плейлист или доступ Xtream Codes от IPTV-провайдера.
 
@@ -69,7 +69,7 @@ Glass IPTV — плеер для Android TV, Google TV и телефонов с 
 
 ## English
 
-Glass IPTV is a player for Android TV, Google TV and phones running Android 8.0 or later. It brings live TV, programme guides, provider catch-up, recordings and your videos together in an interface with translucent glass panels.
+Lumora TV Player is a player for Android TV, Google TV and phones running Android 8.0 or later. It brings live TV, programme guides, provider catch-up, recordings and your videos together in an interface with translucent glass panels.
 
 The app does not provide channels or sell subscriptions. You need your own M3U playlist or Xtream Codes access from an IPTV provider.
 
